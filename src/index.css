@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Geist", sans-serif;
+
+  --shadow-feature-card: 0 2px 35.8px 0 #f4f4f4, 0 4px 15px 0 rgba(190, 190, 190, 0);
+
+  --animate-infinite-scroll: infinite-scroll 25s linear infinite;
+
+  @keyframes infinite-scroll {
+    0% {
+      transform: translate(0);
+    }
+    to {
+      transform: translate(-100%);
+    }
+  }
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--color-white);
+  color: var(--color-gray-500);
+}

@@ -156,7 +156,7 @@ export default function Pricing() {
                 {plan.name}
               </span>
               <p className="mb-8 font-mono text-sm text-gray-900">{plan.description}</p>
-              <h3 className="mb-7 flex items-end text-5xl font-medium">
+              <h3 className="mb-7 flex items-end text-5xl font-medium text-gray-900">
                 {formatPrice(plan)}
                 {typeof plan.price.monthly === 'number' && (
                   <span className="text-base text-gray-500">/month</span>

@@ -22,7 +22,7 @@ export default function Hero() {
           </Reveal>
 
           <Reveal delay={0.1}>
-            <h1 className="mb-5 text-center text-4xl font-semibold lg:text-6xl">
+            <h1 className="mb-5 text-center text-4xl font-semibold text-gray-900 lg:text-6xl">
               Empower Your Business With Smarter Insights
             </h1>
           </Reveal>
